@@ -892,7 +892,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://i.meee.com.tw/7wEwyoB.jpg
+  banner_img: 
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -902,8 +902,8 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
-  banner_img: https://i.meee.com.tw/7wEwyoB.jpg
+  enable: false
+  banner_img: 
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -931,8 +931,8 @@ category:
 # Tag Page
 #---------------------------
 tag:
-  enable: true
-  banner_img: https://i.meee.com.tw/7wEwyoB.jpg
+  enable: false
+  banner_img: 
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -948,8 +948,8 @@ tag:
 # About Page
 #---------------------------
 about:
-  enable: true
-  banner_img: https://i.meee.com.tw/7wEwyoB.jpg
+  enable: false
+  banner_img: 
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
@@ -970,10 +970,10 @@ about:
 # 通过 hexo new page 命令创建的页面
 # Custom Page through `hexo new page`
 #---------------------------
-page:
-  banner_img: 
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+#page:
+#  banner_img: 
+#  banner_img_height: 60
+#  banner_mask_alpha: 0.3
 
 
 #---------------------------
