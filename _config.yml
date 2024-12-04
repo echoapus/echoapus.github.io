@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: spindown
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: apus
+language: zh-tw
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://echoapus.github.io
 root: /
 permalink: /p/:abbrlink/
 permalink_defaults:
@@ -102,4 +102,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/echoapus/echopus.github.io.git
+  branch: main
+
